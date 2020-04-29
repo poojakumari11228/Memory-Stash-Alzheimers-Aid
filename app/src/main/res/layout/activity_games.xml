@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<GridLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:columnCount="1"
+    android:rowCount="4"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:layout_margin="8dp"
+        android:elevation="3dp"
+        android:onClick="game1"
+
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_albumCard"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/album_cover_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:src="@drawable/dakim"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_albumCard"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingTop="@dimen/album_title_padding"
+                android:background="@color/colorAccent"
+                android:text="Dakim BrainFitness"
+                android:gravity="center|left"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/phone_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_tv"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="Brain Fitness Program, Dakim offers users a set of games and puzzles designed to help you give your brain a comprehensive workout. The program gives you access to more than 100 individual brain exercises, all designed to improve attention and concentration — in other words, the very kind of mental tasks that have been demonstrated to play a role in preventing Alzheimer’s and related symptoms. You can try Dakim for free on givrn link:"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:fontFamily="@font/allura"
+                android:gravity="left"
+                android:background="@color/colorPrimary"
+                android:textSize="@dimen/songs_count" />
+
+            <TextView
+                android:id="@+id/address_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone_tv"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/game1"
+                android:textColor="#192988"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|top"
+        android:layout_margin="8dp"
+        android:elevation="3dp"
+        android:onClick="game2"
+
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_albumCard2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/album_cover_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:src="@drawable/oldmaid"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/name_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_albumCard2"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingTop="@dimen/album_title_padding"
+                android:background="@color/colorAccent"
+                android:text="Old Maid"
+                android:gravity="center|left"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@color/white"
+                android:textSize="25sp"  />
+
+            <TextView
+                android:id="@+id/phone_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_tv2"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="gravity"
+                android:gravity="left"
+                android:text="If you haven't played Old Maid as an adult, you've missed out on some quality laugh therapy. The simplicity of the game is deceptive when you realize you can't keep a straight face when your opponent draws the Old Maid. You can try Old Maid for free on givrn link:"
+                android:textColor="@color/white"
+                android:fontFamily="@font/allura"
+                android:background="@color/colorPrimary"
+                android:textSize="@dimen/songs_count" />
+
+            <TextView
+                android:id="@+id/address_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone_tv2"
+                android:layout_marginTop="-6dp"
+                android:background="@color/colorAccent"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:text="@string/game2"
+                android:fontFamily="@font/aclonica"
+                android:textAlignment="center"
+                android:textColor="#192988"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|top"
+        android:layout_margin="8dp"
+        android:elevation="3dp"
+        android:onClick="game3"
+
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_albumCard3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/album_cover_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:src="@drawable/memory"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/name_tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_albumCard3"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingTop="@dimen/album_title_padding"
+                android:background="@color/colorAccent"
+                android:text="Card Memory"
+                android:gravity="center|left"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@color/white"
+                android:textSize="25sp"  />
+
+            <TextView
+                android:id="@+id/phone_tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_tv3"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="Exercise the memory by playing a game of Memory with an Alzheimer's patient. Turn cards face down and take turns flipping over two cards at a time, looking for a match. When you find a match, remove those cards from the playing area until no matches are left. If the cards you turn over don't match, place them face down again and try to remember where they were when you do turn over their match. You can play free Card Memory on given link:"
+                android:textColor="@color/white"
+                android:fontFamily="@font/allura"
+                android:textAlignment="gravity"
+                android:gravity="left"
+                android:background="@color/colorPrimary"
+                android:textSize="@dimen/songs_count" />
+
+            <TextView
+                android:id="@+id/address_tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone_tv3"
+                android:layout_marginTop="-3dp"
+                android:background="@color/colorAccent"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:text="@string/game3"
+                android:fontFamily="@font/aclonica"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textColor="#192988"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|top"
+        android:layout_margin="8dp"
+        android:elevation="3dp"
+        android:onClick="game4"
+
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_albumCard4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/album_cover_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:src="@drawable/reflex"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/name_tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_albumCard4"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingTop="@dimen/album_title_padding"
+                android:background="@color/colorAccent"
+                android:text="Reflex Test"
+                android:gravity="center|left"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@color/white"
+                android:textSize="25sp"  />
+
+            <TextView
+                android:id="@+id/phone_tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_tv4"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="Test your reflex with this fun to do exercise, the faster the better, try to get a score of 58 points in this exercise. Once you reach that score then you're very fast, and we should congratulate you, keep it up! Humans often consider themselves to be the dominant species on Earth, and the most advanced in intelligence and ability to manage their environment, thanks to the mind reflection and adaptation to their environment. Test your reflex and have fun doing it on given link!"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:gravity="left"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/allura"
+                android:textSize="@dimen/songs_count" />
+
+            <TextView
+                android:id="@+id/address_tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone_tv4"
+                android:layout_marginTop="-3dp"
+                android:background="@color/colorAccent"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:text="@string/game4"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textColor="#192988"
+                android:fontFamily="@font/aclonica"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</GridLayout>
+</ScrollView>

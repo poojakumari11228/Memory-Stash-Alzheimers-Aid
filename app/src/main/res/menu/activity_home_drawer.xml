@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_patient"
+            android:icon="@drawable/icons_emergencydetails2"
+            android:title="Emergency Details" />
+        <item
+            android:id="@+id/nav_people"
+            android:icon="@drawable/iconsadduser"
+            android:title="Add People" />
+
+        <item
+            android:id="@+id/nav_peopleView"
+            android:icon="@drawable/iconsfinduser"
+            android:title="View People" />
+        <item
+            android:id="@+id/nav_healthReminders"
+            android:icon="@drawable/iconsalarmclock"
+            android:title="Health Reminders" />
+    </group>
+
+    <item android:title="Entertainment"
+
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_game"
+                android:icon="@drawable/iconsbrainstorm"
+                android:title="Mind Games" />
+            <item
+                android:id="@+id/nav_reading"
+                android:icon="@drawable/iconsread"
+                android:title="Reading" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/icons_help2"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

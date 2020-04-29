@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="7 Stages of Alzheimer's Disease"
+        android:textAlignment="center"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/round"
+        android:fontFamily="@font/aclonica"
+        android:padding="3dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Stage 1: Normal Outward Behavior"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/aladin"
+        android:padding="3dp"
+        android:text="When your loved one is in this early phase, he won't have any symptoms that you can spot. Only a PET scan, an imaging test that shows how the brain is working, can reveal whether he's got Alzheimer's
+. As he moves into the next 6 stages, your friend or relative with Alzheimer's will see more and more changes in his thinking and reasoning."
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/round"
+        android:text="Stage 2: Very Mild Changes"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/aclonica"
+        android:padding="3dp"/>
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="You still might not notice anything amiss in your loved one's behavior, but he may be picking up on small differences, things that even a doctor doesn't catch. This could include forgetting a word or misplacing objects. At this stage, subtle symptoms of Alzheimer's don't interfere with his ability to work or live independently. Keep in mind that these symptoms might not be Alzheimer's at all, but simply normal changes from aging."
+        android:textColor="@color/white"
+        android:fontFamily="@font/aladin"
+        android:padding="3dp"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/round"
+        android:text="Stage 3: Mild Decline"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/aclonica"
+        android:padding="3dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/white"
+        android:text="It's at this point that you start to notice changes in your loved one's thinking and reasoning, such as, Forgets something he just read, Asks the same question over and over, Has more and more trouble making plans or organizing, can't remember names when meeting new people."
+        android:textSize="15sp"
+        android:fontFamily="@font/aladin"
+        android:padding="3dp"
+        />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/round"
+        android:text="Stage 4: Moderate Decline"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/aclonica"
+        android:padding="3dp" />
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="During this period, the problems in thinking and reasoning that you noticed in stage 3 get more obvious, and new issues appear. Your friend or family member might, Forget details about himself, Have trouble putting the right date and amount on a check, Forget what month or season it is, or Have trouble cooking meals or even ordering from a menu."
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:fontFamily="@font/aladin"
+        android:padding="3dp"/>
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/round"
+        android:text="Stage 5: Moderately Severe Decline"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:fontFamily="@font/aclonica"
+        android:padding="3dp"/>
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Your loved one might start to lose track of where he is and what time it is. He might have trouble remembering his address, phone number, or where he went to school. He could get confused about what kind of clothes to wear for the day or season. You can help by laying out his clothing in the morning. It can help him dress by himself and keep a sense of independence. If he repeats the same question, answer with an even, reassuring voice. He might be asking the question less to get an answer and more to just know you're there."
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:fontFamily="@font/aladin"
+        android:padding="3dp"/>
+
+    <TextView
+    android:id="@+id/textView28"
+    android:layout_width="347dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/round"
+    android:text="Stage 6: Severe Decline"
+    android:textColor="@color/colorPrimary"
+    android:textAlignment="center"
+     android:textSize="18sp"
+     android:fontFamily="@font/aclonica"
+     android:padding="3dp" />
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="As Alzheimer's progresses, your loved one might recognize faces but forget names. He might also mistake a person for someone else, for instance, thinking his wife is his mother. Delusions might a set in, such as thinking he needs to go to work even though he no longer has a job. You might need to help him go to the bathroom. It might be hard to talk, but you can still connect with him through the senses. Many people with Alzheimer's love hearing music, being read to, or looking over old photos."
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:fontFamily="@font/aladin"
+        android:padding="3dp"/>
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/round"
+        android:text="Stage 7: Very Severe Decline"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/aclonica"
+        android:padding="3dp" />
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Many basic abilities in a person with Alzheimer's, such as eating, walking, and sitting up, fade during this period. You can stay involved by feeding your loved one with soft, easy-to-swallow food, helping him use a spoon, and making sure he drinks. This is important, as many people at this stage can no longer tell when they're thirsty."
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:fontFamily="@font/aladin"
+        android:padding="3dp"/>
+
+</LinearLayout>

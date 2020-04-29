@@ -75,7 +75,7 @@ See [License](https://github.com/poojakumari11228/Memory-Stash-Alzheimers-Aid/bl
 
 | Executable  | Repository | Team | Description	| Licence | Location | Team Members|
 | ------------- | ----------- | ------------- | ------------------------------------- | ------------- | ------------- | ---------- |
-|[.apk](https://drive.google.com/file/d/1hpKkItL3IBrs-ZpfalQgLfZosIw3iEJa/view?usp=sharing)| [AlzheimerApp](https://github.com/BhagiaSheri/AlzheimerApp.git) |coderBoost++|Memory Stash Alzheimer's Aid App|Apache-2.0|Pakistan|[@BhagiaSheri](https://github.com/BhagiaSheri) [@poojakumari11228](https://github.com/poojakumari11228)|
+|[.apk](https://drive.google.com/file/d/1hpKkItL3IBrs-ZpfalQgLfZosIw3iEJa/view?usp=sharing)| [AlzheimerApp](https://github.com/poojakumari11228/Memory-Stash-Alzheimers-Aid) |coderBoost++|Memory Stash Alzheimer's Aid App|Apache-2.0|Pakistan|[@BhagiaSheri](https://github.com/BhagiaSheri) [@poojakumari11228](https://github.com/poojakumari11228)|
  
 
 
